@@ -25,6 +25,10 @@ Execute `ng build` para compilar o projeto. Os artefatos de compilação serão 
 
 Execute `ng test` para executar os testes de unidade via [Karma](https://karma-runner.github.io).
 
+## Cobertura dos testes
+
+Execute o comando `npm run coverage` para ver o relatório de cobertura dos testes unitários que serão armazenados no diretório `coverage/`.  
+
 ## Mais ajuda
 
 Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a página [Angular CLI Overview and Command Reference](https://angular.io/cli).
