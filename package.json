@@ -1,12 +1,19 @@
 {
   "name": "teste-unitario-service-mock",
   "version": "0.0.0",
+  "engines": {
+    "node": "18.16.0"
+  },
+  "author": {
+    "name": "Thiago Soares"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "coverage": "ng test --code-coverage"
   },
   "private": true,
   "dependencies": {
